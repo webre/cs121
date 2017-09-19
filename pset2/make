@@ -1,0 +1,12 @@
+#!/bin/bash
+# tests a few inputs for NANDp2NAND.py
+# tests inc.nandp as well if given "inc" arg
+
+python NANDp2NAND.py test_maj.nandp
+python NANDp2NAND.py test_nand.nandp
+python NANDp2NAND.py test_xor.nandp
+
+if [ "$1" == "inc" ]; then
+	python NANDp2NAND.py inc.nandp
+fi
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+# cleans output files for NANDp2NAND.py
+
+rm *.nand
+
