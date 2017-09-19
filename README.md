@@ -1,1 +1,1 @@
-# cs121-finn-gabe
+# Finn's cs121 repo
